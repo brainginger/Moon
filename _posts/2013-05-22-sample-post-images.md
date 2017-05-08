@@ -56,9 +56,9 @@ Apply the `third` class like so to display three images side by side that share 
 And you'll get something that looks like this:
 
 <figure class="third">
-	<img src="http://placehold.it/600x300.jpg">
-	<img src="http://placehold.it/600x300.jpg">
-	<img src="http://placehold.it/600x300.jpg">
+	<a href="../assets/img/gallery/cloud.jpg"><img src="../assets/img/gallery/cloud.jpg"></a>
+	<a href="../assets/img/gallery/friends.jpg"><img src="../assets/img/gallery/friends.jpg"></a>
+	<a href="../assets/img/gallery/mask.jpg"><img src="../assets/img/gallery/mask.jpg"></a>
 	<figcaption>Three images.</figcaption>
 </figure>
 
