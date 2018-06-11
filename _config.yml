@@ -1,15 +1,14 @@
 # Site
 title:              GINGER
 bio:                '你好'
-description:        "我是Ginger"
-reading_time:       true
+description:        '我是Ginger'
+reading_time:       false
 words_per_minute:   200
 logo:               'assets/img/logo.png'
 background:         'assets/img/IMGP7363.jpg'
-tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
+tiled_bg:           false
 locale:             zh_tw
 url:                https://brainginger.github.io
-# url:                http://127.0.0.1:4000
 
 # Jekyll
 permalink:          /:title/
@@ -21,7 +20,7 @@ kramdown:
   entity_output:    as_char
   toc_levels:       1..6
   enable_coderay:   false
-mathjax:            true
+mathjax:            false
 sass:
   sass_dir:         _sass
   style:            compressed
@@ -30,38 +29,13 @@ sass:
 disqus_shortname:   brainginger
 
 # Social
-# if you don't have any of social below, comment the line.
 #google:
   #plus:            #username
   #analytics:
-  #verify:
-  #ad-client:
-  #ad-slot:
-#bing-verify:
-email:                  landy51223@yahoo.com.tw
-#twitter:            username
-facebook:           f556652030
-#github-url:         username
-#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+email:              landy51223@yahoo.com.tw
+facebook:           landy51223
 #linkedin:          username
-#xing:              username
 instagram:          brainginger
-#lastfm:            username
-#tumblr:            username
-#medium:            '@username'
-#pinterest:         username
-#foursquare:        username
-#steam:              username
-#dribbble:          username
-#youtube:           username
-#youtube-channel:   channel
-#soundcloud:        username
-#weibo:             username
-#flickr:            username
-#codepen:           username
-#keybase:           username
-#xmpp:              username@server.com
-#hackernews:        username
 
 # Gems
 gems:
